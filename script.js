@@ -25,7 +25,6 @@ add_new_task.addEventListener("click", () => {
     newitems.innerHTML = `
         ${customtexts} 
         <small>${fulltimes}</small>
-        <br>
         <button id="remove_task">X</button>
         `;
 
